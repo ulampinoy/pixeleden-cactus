@@ -1,26 +1,34 @@
 .Header {
   display: flex;
   justify-content: space-between;
-  max-width: 65em;
-  margin-left: auto;
-  margin-right: auto;
   padding: 1.5rem 1rem;
+
+  a {
+    padding: 1rem;
+  }
 }
 
-.Wrap {
-    max-width: 1200px;
-    margin: 0 auto;
+.wrap {
+  max-width: 64em;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .Col {
-    display: grid;
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
 
+  @media screen and (min-width: 40em) {
     &--half {
-        grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
     }
 
     &--third {
-        grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
+  }
+}
+
+.Post {
+  margin-bottom: 2rem;
 }
