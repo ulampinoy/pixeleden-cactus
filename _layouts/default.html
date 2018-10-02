@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+</head>
+
+<body>
+    <div class="Background--eden-green">
+        <header class="Header">
+            <div class="logo">
+                Pixeleden
+            </div>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <article>
+            <section>
+                {{ content }}
+            </section>
+        </article>
+    </main>
+    <footer>
+        &copy; 2018 Pixeleden
+    </footer>
+</body>
+
+</html>
