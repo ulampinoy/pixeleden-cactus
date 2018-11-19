@@ -1,5 +1,5 @@
 html {
-  font-size: calc( 1em + (1.6 - 1) * ( (100vw - 20em) / ( 100 - 20) ));
+  font-size: calc( 1em + (1.8 - 1) * ( (100vw - 20em) / ( 100 - 20) ));
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-  font-weight: 600;
+  font-weight: 700;
 
   &:hover,
   &:focus {
