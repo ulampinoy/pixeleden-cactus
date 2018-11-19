@@ -1,34 +1,89 @@
-.Header {
-  display: flex;
-  justify-content: space-between;
-  padding: 1.5rem 1rem;
+header {
+  display: block;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+
+  & > a {
+    display: block;
+    max-width: 32em;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    letter-spacing: .2rem;
+  }
+}
+
+header hgroup,
+main article, 
+main nav,
+footer > p {
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 1.2em;
+}
+
+header {
+  background-color: green;
+  color: whitesmoke;
 
   a {
-    padding: 1rem;
-  }
-}
-
-.wrap {
-  max-width: 64em;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
-.Col {
-  display: grid;
-  grid-template-columns: 1fr;
-
-  @media screen and (min-width: 40em) {
-    &--half {
-      grid-template-columns: 1fr 1fr;
+    padding: 1rem 0;
+    &:hover {
+      border-bottom: none;
     }
-
-    &--third {
-      grid-template-columns: repeat(3, 1fr);
+  }
+  hgroup {
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: .7rem;
     }
   }
 }
 
-.Post {
-  margin-bottom: 2rem;
+main {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+footer {
+  display: block;
+  background-color: black;
+  color: whitesmoke;
+  margin-top: 3rem;
+}
+
+article {
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 1.4;
+    margin-top: 1.2rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: .8rem;
+    margin: .5rem auto 1rem;
+
+    img {
+      max-width: 100%;
+      margin: .5rem auto;
+    }
+  }
+}
+
+.post {
+  h2 {
+    margin-top: 0;
+  }
 }

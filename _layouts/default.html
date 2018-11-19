@@ -3,33 +3,28 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 </head>
 
 <body>
-    <div class="Background--eden-green">
-        <header class="Header wrap">
-            <div class="logo">
-                Pixeleden
-            </div>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/blog/">Blog</a>
-            </nav>
-        </header>
-    </div>
+    <header>
+        <hgroup>
+            <h1>
+                <a href="/">
+                    Pixeleden
+                </a>
+            </h1>
+            <h2>Digital garden and journal of Allan Reyes</h2>
+        </hgroup>
+    </header>
     <main>
-        <article>
-            <section class="wrap">
-                {{ content }}
-            </section>
-        </article>
+        {{ content }}
     </main>
     <footer>
-        <div class="wrap">
-            &copy; 2018 Pixeleden
-        </div>
+        <p>&copy; 2018 Pixeleden</p>
     </footer>
 </body>
 

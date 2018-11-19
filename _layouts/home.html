@@ -1,16 +1,36 @@
----
-layout: default
----
-<div class="posts mw8 center">
-    <div class="Col Col--half">
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+</head>
+
+<body>
+    <header>
+        <hgroup>
+            <h1>
+                <a href="/">
+                    Pixeleden
+                </a>
+            </h1>
+            <h2>Digital garden and journal of Allan Reyes</h2>
+        </hgroup>
+    </header>
+    <main>
         {% for post in site.posts %}
         <article class="post">
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-            <div class="entry">
-                {{ post.excerpt }}
-            </div>
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.content }}
         </article>
         {% endfor %}
-    </div>
-</div>
+    </main>
+    <footer>
+        <p>&copy; 2018 Pixeleden</p>
+    </footer>
+</body>
+
+</html>
