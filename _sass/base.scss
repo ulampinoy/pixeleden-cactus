@@ -19,8 +19,8 @@ a {
 
   &:hover,
   &:focus {
-    border-bottom: .1rem solid currentColor;
-    transition: color 0.1s, border-bottom-color 0.5s;
+    border-bottom: .1rem solid #cccccc;
+    transition: color 0.15s, border-bottom-color 0.3s;
   }
 }
 
