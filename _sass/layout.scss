@@ -38,7 +38,7 @@ header {
       font-size: 3rem;
     }
     h2 {
-      font-size: .7rem;
+      font-size: .9rem;
     }
   }
 }
@@ -74,6 +74,15 @@ article {
   p {
     font-size: .8rem;
     margin: .5rem auto 1rem;
+
+    &.post-date {
+      font-size: .5rem;
+      margin-top: 0;
+      color: #999999;
+      text-transform: uppercase;
+      letter-spacing: .1rem;
+      font-weight: 400;
+    }
 
     img {
       max-width: 100%;
