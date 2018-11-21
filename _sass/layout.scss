@@ -44,7 +44,7 @@ main {
 }
 
 header {
-  background-color: rgb(80, 180, 40);
+  background-color: rgb(35, 158, 76);
   color: whitesmoke;
 
   a {
@@ -73,7 +73,7 @@ main {
 
 footer {
   display: block;
-  background-color: rgb(80, 180, 40);
+  background-color: rgb(35, 158, 76);
   color: whitesmoke;
   margin-top: 3rem;
   padding: 1.5rem;
@@ -153,4 +153,8 @@ article {
 
 img {
   max-width: 100%;
+
+  &.east {
+    float: right;
+  }
 }
