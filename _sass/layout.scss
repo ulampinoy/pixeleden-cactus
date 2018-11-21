@@ -18,7 +18,7 @@ header hgroup,
 main article, 
 main nav,
 footer > p {
-  max-width: 24em;
+  max-width: 32em;
   margin: 0 auto;
   padding: 1.2em;
 }
@@ -66,22 +66,21 @@ article {
     font-weight: 600;
   }
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-top: 3rem;
     font-weight: 600;
   }
   h3 {
-    font-size: 1.4;
-    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
     font-weight: 500;
   }
   p {
-    font-size: .8rem;
+    font-size: .9rem;
     margin: .5rem auto 1rem;
-    letter-spacing: -.01rem;
 
     &.post-date {
-      font-size: .5rem;
+      font-size: .6rem;
       margin-top: 0;
       color: #999999;
       text-transform: uppercase;
