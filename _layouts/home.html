@@ -32,8 +32,8 @@
     <main>
         {% for post in site.posts %}
         <article class="post">
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             <p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             {{ post.content }}
         </article>
         {% endfor %}

@@ -1,6 +1,7 @@
 header {
   display: block;
   padding: 1rem 0;
+  border-bottom: 8px solid rgb(186, 238, 203);
 
   & > a {
     display: block;
@@ -27,15 +28,15 @@ main {
 
   article {
     position: relative;
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
     &::after {
       content: "";
       position: absolute;
       left: 0;
       bottom: 0;
-      width: 3rem;
-      height: 1px;
-      background-color: #cccccc;
+      width: 2rem;
+      height: .2rem;
+      background-color: rgb(186, 238, 203);
     }
   }
   nav {
@@ -49,6 +50,8 @@ header {
 
   a {
     padding: 1rem 0;
+    color: rgba(255,255,255,.9);
+    font-weight: 900;
     &:hover {
       border-bottom: none;
     }
@@ -58,9 +61,11 @@ header {
     h1 {
       font-size: 3rem;
       line-height: 1.2;
+
     }
     h2 {
-      font-size: 0.9rem;
+      font-size: 1rem;
+      color: rgba(255,255,255,.7);
     }
   }
 }
@@ -80,18 +85,24 @@ footer {
 }
 
 article {
+  &.post {
+    margin-top: 4rem;
+    .post-date {
+      margin-bottom: .2rem;
+    }
+  }
   a:hover {
     color: #000000;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
-    margin: 3rem 0 1rem;
-    letter-spacing: -0.01rem;
+    margin: 0;
+    letter-spacing: -0.02rem;
   }
   h2 {
     font-size: 1.8rem;
-    margin-top: 3rem;
+    line-height: 1.4;
     font-weight: 600;
   }
   h3 {
@@ -101,15 +112,14 @@ article {
   }
   p {
     font-size: 0.9rem;
-    margin: 0.5rem auto 1rem;
+    margin: 1rem auto;
 
     &.post-date {
       font-size: 0.6rem;
-      margin-top: 0;
-      color: #999999;
+      color: #aaaaaa;
       text-transform: uppercase;
       letter-spacing: 0.1rem;
-      font-weight: 400;
+      font-weight: 600;
     }
 
     img {
@@ -136,11 +146,11 @@ article {
     font-weight: 500;
     margin: 0.5rem auto 1rem;
     padding: 0 1rem;
-    font-size: 0.8rem;
-    border-left: 4px solid rgba(147, 10, 21, 0.1);
+    border-left: 5px solid rgba(147, 10, 21, 0.1);
     p {
       color: rgb(147, 10, 21);
-      font-size: 0.8rem;
+      font-size: 1.1rem;
+      line-height: 1.4;
     }
   }
 
@@ -156,5 +166,6 @@ img {
 
   &.east {
     float: right;
+    padding-left: 3%;
   }
 }

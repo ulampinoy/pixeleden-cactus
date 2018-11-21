@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Link Pack Weekly 
+title: Link Pack Weekly
 date: 2018-11-16
 description: This is the first post for Link Pack Weekly series! Is a collection of the week's interesting and useful stuff I found or stumbled upon the Internet.
 image: colorful-text-2.png
 ---
 
-This is the first post for **Link Pack Weekly!** Is a collection of the week's interesting and useful stuff I found or stumbled upon the Internet.
+This is the first post for **Link Pack Weekly!** It is a collection of the week's interesting and useful stuff I've found or stumbled upon the Internet.
 
 ![Cloudflare DNS](/assets/images/colorful-text-2.png)
 Cloudflare's privacy-first public DNS resolver is [now available as a mobile app](https://blog.cloudflare.com/1-thing-you-can-do-to-make-your-internet-safer-and-faster/) to easily use it to get faster, more private Internet experience. A must!

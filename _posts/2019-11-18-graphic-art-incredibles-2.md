@@ -10,7 +10,7 @@ Amazing [in-depth post](http://joshholtsclaw.com/blog/2018/3/5/the-graphic-art-o
 
 <img class="xwide" src="/assets/images/incredibles2_portfolio-15.png" alt="">
 
-I cannot relay more when you said: 
+I cannot relay more when he said: 
 > "One of the hardest things to do was this cereal box where a character illustration appears next to one of our real characters..."
 
 ![](/assets/images/incredibles2_portfolio-08.jpg)

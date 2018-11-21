@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dormant Not Extinct
+title: Dormant not Extinct
 slug: dormant-not-extinct
 ---
 
