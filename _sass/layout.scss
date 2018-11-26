@@ -34,9 +34,10 @@ main {
       position: absolute;
       left: 0;
       bottom: 0;
-      width: 2rem;
-      height: .2rem;
-      background-color: rgb(186, 238, 203);
+      width: .8rem;
+      height: .8rem;
+      border-radius: 11rem;
+      background-color: rgba(35, 158, 76, .8);
     }
   }
   nav {

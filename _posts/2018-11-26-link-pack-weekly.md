@@ -7,7 +7,7 @@ image: docubyte-01.jpg
 ---
 
 ![Docubyte](/assets/images/docubyte-01.jpg)
-[Docubyte](https://www.docubyte.com/works/guide-to-computing/) — A visual guide to computing history with  amazing, stylized rendetion of vintage computer hardware.
+[Docubyte](https://www.docubyte.com/works/guide-to-computing/) — A visual guide to computing history with  amazing imagery, stunning stylized rendetion of vintage computer hardware.
 
 [PhotoSwipe](http://photoswipe.com), JavaScript gallery, no dependencies.
 
