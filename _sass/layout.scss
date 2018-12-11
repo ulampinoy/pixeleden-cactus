@@ -115,6 +115,13 @@ article {
     font-size: 0.9rem;
     margin: 1rem auto 1.5rem;
 
+    em {
+      font-style: italic;
+      font-family: 'athelas', georgia, serif;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+
     &.post-date {
       font-size: 0.6rem;
       color: #aaaaaa;
