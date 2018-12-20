@@ -115,6 +115,12 @@ article {
     font-size: 0.9rem;
     margin: 1rem auto 1.5rem;
 
+    a {
+      em {
+        font-weight: 700;
+      }
+    }
+
     em {
       font-style: italic;
       font-family: 'athelas', georgia, serif;
